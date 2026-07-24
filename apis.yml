@@ -1,8 +1,24 @@
 aid: braid
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braid.png
 name: Braid
-description: Braid is a company surfaced as a portfolio company of a16z, initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Braid Networks was a creator-economy startup that let creators build customizable landing
+  pages unifying their work across the web (blog posts, videos, podcasts and commerce links), build
+  mailing lists, and engage followers via text and push notifications. Founded by former Facebook
+  product designer Matthew Cahill and software engineer Chris Piro, it raised a $6.8M seed round from
+  Andreessen Horowitz (a16z) and Initialized Capital. Braid was a consumer direct-to-fan product and
+  never published a public developer API. The company was acquired by Laurel on 2026-01-01 to power
+  Laurel's Signal product and has since shut down; the braid.network domain no longer serves a site.
 url: https://raw.githubusercontent.com/api-evangelist/braid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +27,21 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: laurel
+x-acquired-date: '2026-01-01'
+x-has-public-api: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Creator Economy
+- Landing Pages
+- Consumer
+- Fintech
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/braid-domain-security.yml
 - type: Website
   url: https://braid.network/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
