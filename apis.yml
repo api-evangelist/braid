@@ -24,12 +24,12 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braid.png
 name: Braid
 description: Braid Networks was a creator-economy startup that let creators build customizable landing
-  pages unifying their work across the web (blog posts, videos, podcasts and commerce links), build
-  mailing lists, and engage followers via text and push notifications. Founded by former Facebook
-  product designer Matthew Cahill and software engineer Chris Piro, it raised a $6.8M seed round from
-  Andreessen Horowitz (a16z) and Initialized Capital. Braid was a consumer direct-to-fan product and
-  never published a public developer API. The company was acquired by Laurel on 2026-01-01 to power
-  Laurel's Signal product and has since shut down; the braid.network domain no longer serves a site.
+  pages unifying their work across the web (blog posts, videos, podcasts and commerce links), build mailing
+  lists, and engage followers via text and push notifications. Founded by former Facebook product designer
+  Matthew Cahill and software engineer Chris Piro, it raised a $6.8M seed round from Andreessen Horowitz
+  (a16z) and Initialized Capital. Braid was a consumer direct-to-fan product and never published a public
+  developer API. The company was acquired by Laurel on 2026-01-01 to power Laurel's Signal product and
+  has since shut down; the braid.network domain no longer serves a site.
 url: https://raw.githubusercontent.com/api-evangelist/braid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,13 +38,13 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired
+x-status: defunct
 x-acquired-by: laurel
 x-acquired-date: '2026-01-01'
 x-has-public-api: false
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Creator Economy
